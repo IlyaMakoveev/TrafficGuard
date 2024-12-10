@@ -1,0 +1,563 @@
+.main {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .main .div {
+    background-color: var(--mainbackground);
+    width: 1920px;
+    height: 1888px;
+    position: relative;
+  }
+  
+  .main .overlap {
+    position: absolute;
+    width: 1920px;
+    height: 966px;
+    top: 0;
+    left: 0;
+  }
+  
+  .main .overlap-group {
+    position: absolute;
+    width: 1920px;
+    height: 853px;
+    top: 0;
+    left: 0;
+  }
+  
+  .main .overlap-2 {
+    position: absolute;
+    width: 1164px;
+    height: 691px;
+    top: 162px;
+    left: 74px;
+  }
+  
+  .main .picture-box {
+    position: absolute;
+    width: 1158px;
+    height: 685px;
+    top: 0;
+    left: 6px;
+  }
+  
+  .main .overlap-3 {
+    position: relative;
+    width: 1164px;
+    height: 691px;
+    left: -6px;
+  }
+  
+  .main .pattern {
+    position: absolute;
+    width: 355px;
+    height: 331px;
+    top: 360px;
+    left: 0;
+  }
+  
+  .main .img {
+    position: absolute;
+    width: 1028px;
+    height: 578px;
+    top: 0;
+    left: 136px;
+    background-image: url(./img/image-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .main .overlap-4 {
+    position: absolute;
+    width: 403px;
+    height: 361px;
+    top: 10px;
+    left: 418px;
+  }
+  
+  .main .view {
+    position: absolute;
+    width: 354px;
+    height: 288px;
+    top: 73px;
+    left: 0;
+  }
+  
+  .main .rectangle {
+    width: 46px;
+    height: 78px;
+    top: 187px;
+    left: 0;
+    border: 5.65px solid;
+    position: absolute;
+    border-color: var(--mainbackground);
+  }
+  
+  .main .overlap-group-2 {
+    position: absolute;
+    width: 106px;
+    height: 89px;
+    top: 0;
+    left: 245px;
+  }
+  
+  .main .rectangle-2 {
+    width: 35px;
+    height: 69px;
+    top: 0;
+    left: 0;
+    border: 5.65px solid;
+    position: absolute;
+    border-color: var(--mainbackground);
+  }
+  
+  .main .text-wrapper {
+    position: absolute;
+    width: 106px;
+    top: 68px;
+    left: 0;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: var(--mainbackground);
+    font-size: 15.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .text-wrapper-2 {
+    position: absolute;
+    width: 103px;
+    top: 268px;
+    left: 7px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: var(--mainbackground);
+    font-size: 15.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .element {
+    position: absolute;
+    width: 134px;
+    height: 134px;
+    top: 0;
+    left: 0;
+  }
+  
+  .main .rectangle-3 {
+    position: absolute;
+    width: 132px;
+    height: 111px;
+    top: 0;
+    left: 0;
+    border: 5.65px dashed;
+    border-color: var(--mainbackground);
+  }
+  
+  .main .text-wrapper-3 {
+    position: absolute;
+    width: 93px;
+    top: 113px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--mainbackground);
+    font-size: 15.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .element-2 {
+    position: absolute;
+    width: 247px;
+    height: 147px;
+    top: 162px;
+    left: 156px;
+  }
+  
+  .main .rectangle-4 {
+    position: absolute;
+    width: 245px;
+    height: 122px;
+    top: 0;
+    left: 0;
+    border: 5.65px dashed;
+    border-color: var(--mainbackground);
+  }
+  
+  .main .text-wrapper-4 {
+    position: absolute;
+    width: 93px;
+    top: 126px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--mainbackground);
+    font-size: 15.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .element-3 {
+    position: absolute;
+    width: 222px;
+    height: 197px;
+    top: 305px;
+    left: 168px;
+  }
+  
+  .main .rectangle-5 {
+    width: 220px;
+    height: 176px;
+    top: 0;
+    left: 0;
+    border: 5.65px dashed;
+    position: absolute;
+    border-color: var(--mainbackground);
+  }
+  
+  .main .text-wrapper-5 {
+    position: absolute;
+    width: 90px;
+    top: 176px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--mainbackground);
+    font-size: 15.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .view-2 {
+    position: absolute;
+    width: 179px;
+    height: 177px;
+    top: 176px;
+    left: 848px;
+  }
+  
+  .main .overlap-5 {
+    position: absolute;
+    width: 153px;
+    height: 135px;
+    top: 21px;
+    left: 0;
+  }
+  
+  .main .rectangle-6 {
+    width: 95px;
+    height: 101px;
+    top: 34px;
+    left: 58px;
+    border: 5.65px dashed;
+    position: absolute;
+    border-color: var(--mainbackground);
+  }
+  
+  .main .rectangle-7 {
+    width: 95px;
+    height: 101px;
+    top: 0;
+    left: 0;
+    border: 5.65px dashed;
+    position: absolute;
+    border-color: var(--mainbackground);
+  }
+  
+  .main .text-wrapper-6 {
+    position: absolute;
+    width: 116px;
+    top: 157px;
+    left: 58px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--mainbackground);
+    font-size: 15.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .text-wrapper-7 {
+    position: absolute;
+    width: 114px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--mainbackground);
+    font-size: 15.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .line {
+    left: 0;
+    position: absolute;
+    width: 37px;
+    height: 12px;
+    top: 679px;
+  }
+  
+  .main .line-2 {
+    left: 79px;
+    position: absolute;
+    width: 37px;
+    height: 12px;
+    top: 679px;
+  }
+  
+  .main .line-3 {
+    left: 159px;
+    position: absolute;
+    width: 37px;
+    height: 12px;
+    top: 679px;
+  }
+  
+  .main .line-4 {
+    left: 238px;
+    position: absolute;
+    width: 37px;
+    height: 12px;
+    top: 679px;
+  }
+  
+  .main .line-5 {
+    left: 318px;
+    position: absolute;
+    width: 37px;
+    height: 12px;
+    top: 679px;
+  }
+  
+  .main .overlap-6 {
+    position: absolute;
+    width: 1920px;
+    height: 272px;
+    top: 0;
+    left: 0;
+  }
+  
+  .main .header {
+    position: absolute;
+    width: 1920px;
+    height: 153px;
+    top: 0;
+    left: 0;
+    background-color: var(--mainbackground);
+  }
+  
+  .main .group {
+    position: relative;
+    width: 563px;
+    height: 88px;
+    top: 32px;
+    left: 82px;
+  }
+  
+  .main .logo {
+    position: absolute;
+    width: 87px;
+    height: 94px;
+    top: -3px;
+    left: -3px;
+  }
+  
+  .main .text-wrapper-8 {
+    position: absolute;
+    top: 2px;
+    left: 127px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--maintext);
+    font-size: 69.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .p {
+    position: absolute;
+    width: 591px;
+    top: 152px;
+    left: 1281px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--maintext);
+    font-size: 42px;
+    letter-spacing: 0;
+    line-height: 60px;
+  }
+  
+  .main .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px 48px;
+    position: absolute;
+    top: 842px;
+    left: 1280px;
+    background-color: var(--mainelemet);
+    border-radius: 22px;
+    overflow: hidden;
+  }
+  
+  .main .button-variant {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .main .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--maintext);
+    font-size: 42px;
+    letter-spacing: 0;
+    line-height: 60px;
+    white-space: nowrap;
+  }
+  
+  .main .text-wrapper-10 {
+    position: absolute;
+    width: 571px;
+    top: 289px;
+    left: 1288px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--maintext);
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .group-2 {
+    position: absolute;
+    width: 1764px;
+    height: 307px;
+    top: 1356px;
+    left: 80px;
+  }
+  
+  .main .text-wrapper-11 {
+    position: absolute;
+    width: 1759px;
+    top: 67px;
+    left: 1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--maintext);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 60px;
+  }
+  
+  .main .text-wrapper-12 {
+    position: absolute;
+    width: 409px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--maintext);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 73px;
+    position: absolute;
+    top: 1247px;
+    left: 179px;
+    background-color: #ffffff;
+  }
+  
+  .main .div-wrapper {
+    position: relative;
+    width: 242px;
+    height: 69px;
+    background-color: #ffffff;
+  }
+  
+  .main .text-wrapper-13 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--maintext);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 69px;
+    white-space: nowrap;
+  }
+  
+  .main .frame-2 {
+    position: relative;
+    width: 306px;
+    height: 69px;
+  }
+  
+  .main .frame-3 {
+    position: relative;
+    width: 247px;
+    height: 69px;
+  }
+  
+  .main .frame-4 {
+    position: relative;
+    width: 208px;
+    height: 69px;
+  }
+  
+  .main .frame-5 {
+    position: relative;
+    width: 268px;
+    height: 69px;
+  }
+  
+  .main .traffic-guard {
+    position: absolute;
+    width: 1786px;
+    top: 1124px;
+    left: 80px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: var(--maintext);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .span {
+    font-weight: 700;
+  }
+  
+  .main .text-wrapper-14 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+  }
+  
+  .main .frame-6 {
+    position: absolute;
+    width: 1920px;
+    height: 187px;
+    top: 1701px;
+    left: 0;
+    background-color: var(--mainbackground);
+  }
+  
