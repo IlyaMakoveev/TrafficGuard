@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="actions.js"></script>
+  </head>
+  <body>
+    <div class="log-screen">
+      <header class="header">
+        <div class="group">
+          <img class="logo" src="img/logo.png" />
+          <div class="text-wrapper">TrafficGuard</div>
+        </div>
+      </header>
+      <div class="video">
+        <div class="frame">
+          <video id="video-player" width="1116" height="661" controls>
+            <source id="video-source" type="video/mp4" />
+          </video>
+        </div>
+        <div class="div">Ваше видео</div>
+      </div>
+      <div class="text-wrapper-2">Анализ нарушений</div>
+      <div class="table">
+        <div class="table-row-header">
+          <div class="div-wrapper"><div class="text">№ Нарушения</div></div>
+          <div class="div-wrapper"><div class="text">Тип</div></div>
+          <div class="div-wrapper"><div class="text">Таймкод</div></div>
+          <div class="div-wrapper"><div class="text">Изображение</div></div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell"><div class="text-wrapper-3">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">*link*</div></div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell"><div class="text-wrapper-3">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">*link*</div></div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell"><div class="text-wrapper-3">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">*link*</div></div>
+        </div>
+        <div class="table-row-2">
+          <div class="table-cell"><div class="text-wrapper-3">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">Text</div></div>
+          <div class="table-cell"><div class="text-wrapper-4">*link*</div></div>
+        </div>
+      </div>
+      <div class="frame-2"></div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // const videoUrl = localStorage.getItem('videoUrl');
+        const videoUrl = decodeURI(new URL(location).searchParams.get("url"));
+        console.log("Video URL from localStorage:", videoUrl); // Логирование URL видео
+        if (videoUrl) {
+          const videoSource = document.getElementById("video-source");
+          const videoPlayer = document.getElementById("video-player");
+
+          console.log("Video Source Element:", videoSource); // Логирование элемента videoSource
+          console.log("Video Player Element:", videoPlayer); // Логирование элемента videoPlayer
+
+          if (videoSource && videoPlayer) {
+            videoSource.src = videoUrl;
+            videoPlayer.load();
+          } else {
+            console.error("Video elements not found");
+          }
+        } else {
+          console.error("Video URL not found in localStorage");
+        }
+      });
+    </script>
+  </body>
+</html>
